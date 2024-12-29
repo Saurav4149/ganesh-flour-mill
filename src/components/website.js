@@ -1161,7 +1161,7 @@ const productCategories = {
   };
   
   const ProductSection = ({ title, products, isOpen, onToggle }) => (
-    <div className="mb-8 mx-16 bg-white/70 backdrop-blur-sm rounded-lg shadow-md overflow-hidden">
+    <div className="mb-8 mx-4 md:mx-16 bg-white/70 backdrop-blur-sm rounded-lg shadow-md overflow-hidden">
       <button
         onClick={onToggle}
         className="w-full p-6 flex justify-between items-center bg-gradient-to-r from-red-500 to-red-600 text-white hover:from-red-600 hover:to-red-700 transition-all"
